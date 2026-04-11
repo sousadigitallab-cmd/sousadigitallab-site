@@ -1,79 +1,28 @@
-/* ===========================
-   ESTILO GLOBAL MINIMALISTA
-   SousaDigitalLab
-   =========================== */
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f7f7;
-    color: #222;
-    line-height: 1.6;
-}
-
-/* Header */
-header {
-    background-color: #003366; /* Azul institucional */
-    color: white;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 28px;
+/* HEADER / NAVBAR */
+.header {
+    background: linear-gradient(135deg, #1a2a6c, #2575fc);
+    padding: 25px 20px;
     text-align: center;
-    letter-spacing: 1px;
-}
-
-/* Navegação */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
     color: white;
+}
+
+.logo {
+    font-size: 28px;
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.navbar {
+    margin-top: 10px;
 }
 
-/* Hero Section */
-.hero {
-    background-color: #e6f0ff;
-    padding: 50px 15px;
-    text-align: center;
+.navbar a {
+    color: #ffffffcc;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 15px;
 }
 
-.hero h2 {
-    margin-top: 0;
-    font-size: 24px;
-    color: #003366;
-}
-
-/* Secção Introdução */
-.intro {
-    padding: 30px 20px;
-    text-align: center;
-}
-
-.intro h3 {
-    color: #003366;
-    font-size: 22px;
-}
-
-/* Footer */
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
+.navbar a:hover,
+.navbar a.active {
+    color: #ffffff;
 }
